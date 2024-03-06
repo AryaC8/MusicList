@@ -1,0 +1,63 @@
+
+/* Bloque para determinar el aspecto del body de la página de inicio */
+body {
+    background-image: url(../img/fondo1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column; 
+} 
+
+/* Bloque para determinar el margen de los botones */
+.margen-btn{
+    margin-top: 10px;
+}
+
+/* Bloque para determinar el color de la barra de navegación */
+.nav-color{
+    background-color: #FAD7A0;
+}
+
+/* Bloque para determinar el aspecto de la imágen del logo */
+.imgIcon{    
+    width: 50px;
+    height: 40px;
+}
+
+/* Bloque para determinar el aspecto de las imágenes */
+.img{
+    width: 300px;
+    height: 300px;
+}
+
+/* Bloque para determinar el aspecto de las letras de la barra de navegación */
+.nav-words{
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Bloque para determinar el aspecto de los iconos (svg) de la barra de navegación */
+nav svg{
+    height: 20px;
+    width: 20px;
+}
+
+/* Bloque para determinar el aspecto de los enlaces de la barra de navegación */
+nav a{
+    color: black;
+    text-decoration-line: none;
+}
+
+/* Bloque para determinar la posición de determinados elementos */
+.posicion{
+    align-items: center; 
+    position: relative; 
+    margin-top: 20vh;
+}
+
+/* Bloque para determinar el aspecto del footer */
+footer{
+    margin-top: auto;
+    padding: 1em 0;
+}

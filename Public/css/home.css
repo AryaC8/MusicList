@@ -1,0 +1,62 @@
+
+/* Bloque para determinar el aspecto del body de las páginas principales de ambos usuarios */
+body{
+    background-image: url(../img/fondo.png);;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column; 
+}
+
+/* Bloque para determinar el aspecto del footer de todas páginas de ambos usuarios */
+footer{
+    margin-top: auto;
+    padding: 1em 0;
+}
+
+/* Bloque para determinar el aspecto de los iconos (svg) de la barra de navegación */
+nav svg{
+    height: 20px;
+    width: 20px;
+}
+
+/* Bloque para determinar el aspecto de los enlaces de la barra de navegación */
+nav a{
+    color: black;
+    text-decoration-line: none;
+}
+
+/* Bloque para determinar el aspecto de los titulos "h6" */
+h6{
+    color:#E0FFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Bloque para determinar el aspecto del cuadro donde aparece el nombre del usuario */
+.tarjeta{
+    background-color: #5F9EA0 ;
+}
+
+/* Bloque para determinar el aspecto del bloque principal de la página home del administrador */
+.acordeon{
+    background-color: #A9A9A9 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Bloque para determinar el aspecto del nombre del usuario en el apartado de cuenta */
+.nombreCuenta{
+    color: #5DADE2;
+}
+
+/* Bloque para determinar el aspecto de los enlaces en la tabla */
+table a{
+    color: blue;
+    
+}
+
+/* Bloque para determinar el aspecto de los nombre de instrumento y usuarios en las tablas*/
+.sinBorde{
+   
+    border: 0;
+}
